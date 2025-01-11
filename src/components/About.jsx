@@ -45,7 +45,7 @@ const InterestCard = ({ interest, index }) => {
 
 const About = () => {
   const stats = [
-    { label: "Years Experience", value: "0" },
+    { label: "Years Experience", value: "1+" },
     { label: "Projects Completed", value: "15+" },
     { label: "Technologies", value: "10+" },
     { label: "Happy Clients", value: "14+" },
