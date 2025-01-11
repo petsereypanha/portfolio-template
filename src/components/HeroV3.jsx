@@ -136,7 +136,7 @@ const HeroV3 = () => {
                     platform: "LinkedIn",
                     url: "https://www.linkedin.com/in/pet-sereypanha-59b751282/",
                   },
-                  { platform: "Twitter", url: "#" },
+                  { platform: "Telegram", url: "https://t.me/petsereypanha" },
                 ].map(({ platform, url }) => (
                   <a
                     key={platform}

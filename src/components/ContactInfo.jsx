@@ -119,7 +119,7 @@ const ContactInfo = () => {
           <h4 className="text-white mb-4">Follow Me</h4>
           <div className="flex space-x-4">
             <SocialLink
-              href="https://github.com/your-github"
+              href="https://github.com/petsereypanha"
               icon={
                 <svg
                   className="w-5 h-5"
@@ -135,7 +135,7 @@ const ContactInfo = () => {
               }
             />
             <SocialLink
-              href="https://linkedin.com/in/your-linkedin"
+              href="https://www.linkedin.com/in/pet-sereypanha-59b751282"
               icon={
                 <svg
                   className="w-5 h-5"
@@ -147,17 +147,34 @@ const ContactInfo = () => {
               }
             />
             <SocialLink
-              href="https://twitter.com/your-twitter"
-              icon={
-                <svg
-                  className="w-5 h-5"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-                </svg>
-              }
+              href="https://web.facebook.com/petserreypanha"
+                icon={
+                  <svg
+                    className="w-5 h-5"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-label="Facebook"
+                  >
+                    <path
+                        d="M22.675 0h-21.35c-.733 0-1.325.592-1.325 1.325v21.351c0 .733.592 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.794.715-1.794 1.763v2.312h3.587l-.467 3.622h-3.12v9.294h6.116c.733 0 1.325-.591 1.325-1.324v-21.35c0-.733-.592-1.325-1.325-1.325z"
+                    />
+                  </svg>
+                  }
             />
+              <SocialLink
+                  href="https://t.me/petsereypanha" // Replace with your Telegram link
+                  icon={
+                      <svg
+                          className="w-5 h-5"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                          aria-label="Telegram"
+                      >
+                          <path
+                              d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"></path>
+                      </svg>
+                  }
+              />
           </div>
         </div>
       </div>
