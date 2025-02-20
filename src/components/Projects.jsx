@@ -5,6 +5,7 @@ import smsImage from "../assets/school_system.png";
 import courceImage from "../assets/cource_online.png";
 import porfolioImage from "../assets/portfolio_website.png";
 import commerceImage from "../assets/e_commerce.png";
+import profile from "../assets/Projgramming.jpg";
 import { p } from 'motion/react-client';
 
 // ProjectCard component remains unchanged
@@ -138,6 +139,17 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "RUPP-UYFC ក្លឹបសិស្សច្បង",
+      description:
+          "I joined the Rupp-uyfc. I learned lots of things there including hard skills and soft skills as well. Sharing is my passion, I was share c++ and java.",
+      image: profile,
+      technologies: [
+        "C++",
+        "Java",
+      ],
+      githubUrl: "https://web.facebook.com/share/1EymDmFT3Y/",
+    },
+    {
       title: "School Management System (Coming Soon)",
       description:
         "A comprehensive platform for managing student records, attendance tracking, grade management, and administrative tasks for educational institutions.",
@@ -149,7 +161,6 @@ const Projects = () => {
         "TypeScript",
         "PostgreSQL",
       ],
-      liveUrl: "https://example.com",
       githubUrl: "https://github.com/nhaserey/nest-sms",
     },
     {
@@ -158,7 +169,6 @@ const Projects = () => {
         "An interactive e-learning platform featuring video lectures, quizzes, and progress tracking. Supports both live and self-paced learning with student-instructor interaction.",
       image: courceImage,
       technologies: ["Java", "SpringBoot", "PostgreSQL", "REST APIs"],
-      liveUrl: "https://example.com",
       githubUrl: "https://github.com/nhaserey/schoool",
     },
     {
@@ -167,7 +177,6 @@ const Projects = () => {
         "A robust RESTful API backend for e-commerce platforms featuring product management, user authentication, order processing, and payment integration.",
       image: commerceImage,
       technologies: ["Node.js", "Express", "Prisma", "PostgreSQL", "Redis"],
-      liveUrl: "https://example.com",
       githubUrl: "https://github.com/sereynha/ecommerce",
     },
     {
@@ -176,7 +185,6 @@ const Projects = () => {
         "A modern portfolio website built with React and Tailwind CSS, featuring smooth animations and dark mode.",
       image: porfolioImage,
       technologies: ["React", "Tailwind CSS", "Vite", "React Spring"],
-      liveUrl: "https://petsereypanha.it.com",
       githubUrl: "https://github.com/petsereypanha/portfolio-template",
     },
   ];
